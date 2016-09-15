@@ -1,0 +1,39 @@
+{
+  "name": "heroku-private-modules",
+  "version": "0.0.1",
+  "description": "Allow the use of private GitHub repositories as depencencies on Heroku",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/auth0/heroku-private-modules.git"
+  },
+  "keywords": [
+    "Heroku",
+    "GitHub",
+    "git",
+    "modules",
+    "private"
+  ],
+  "author": "Ramiro Silveyra d'Avila (@ramasilveyra)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/auth0/heroku-private-modules/issues"
+  },
+  "homepage": "https://github.com/auth0/heroku-private-modules#readme",
+  "dependencies": {
+    "axios": "^0.14.0",
+    "find-root": "^1.0.0",
+    "hosted-git-info": "^2.1.5"
+  },
+  "devDependencies": {
+    "eslint": "^3.5.0",
+    "eslint-config-auth0-base": "^5.0.0",
+    "eslint-plugin-import": "^1.15.0"
+  },
+  "bin": {
+    "heroku-private-modules": "index.js"
+  }
+}
