@@ -1,8 +1,8 @@
 {
   "name": "heroku-private-modules",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Allow the use of private GitHub repositories as depencencies on Heroku",
-  "main": "index.js",
+  "main": "module.js",
   "scripts": {
     "lint": "eslint ."
   },
@@ -34,6 +34,6 @@
     "eslint-plugin-import": "^1.15.0"
   },
   "bin": {
-    "heroku-private-modules": "index.js"
+    "heroku-private-modules": "cli.js"
   }
 }
