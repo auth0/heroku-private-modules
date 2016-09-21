@@ -23,6 +23,10 @@
     "url": "https://github.com/auth0/heroku-private-modules/issues"
   },
   "homepage": "https://github.com/auth0/heroku-private-modules#readme",
+  "engines": {
+    "node": ">=4 <7",
+    "npm": ">=3 <4"
+  },
   "dependencies": {
     "axios": "^0.14.0",
     "find-root": "^1.0.0",
