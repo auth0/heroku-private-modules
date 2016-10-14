@@ -1,3 +1,9 @@
+# This package is deprecated
+
+Doesn't work with private packages inside other packages, I tried to solve this using the [npm hook](https://docs.npmjs.com/misc/scripts#hook-scripts) preinstall but this npm bug/feature makes the solution inviable [preinstall execution order in npm@3.x](https://github.com/npm/npm/issues/10379#issuecomment-163316532).
+
+See [next](https://github.com/auth0/heroku-private-modules/tree/next) branch for the last unreleased version.
+
 # Heroku Private Modules
 
 Use private GitHub repos as npm dependencies on Heroku.
